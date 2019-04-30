@@ -9,7 +9,7 @@ import (
 	"testing"
 )
 
-const eps = 1e-2
+const eps = 1e-1
 
 func TestGetElements(t *testing.T) {
 	var data = []Pair{

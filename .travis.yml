@@ -11,11 +11,6 @@ go:
 env:
  global:
   - GO111MODULE=on
- matrix:
-  - TAGS=""
-  - TAGS="-tags bounds"
-  - TAGS="-tags noasm"
-  - TAGS="-tags appengine"
 
 cache:
  directories:
