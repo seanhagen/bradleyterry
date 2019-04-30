@@ -22,3 +22,8 @@ The most relevance scores for each document are:
 * Document 3: **0.64**
 
 So the most relevant document is #3.
+
+
+## Note
+
+The builds currently show as failing on TravisCI because the model is inherently random -- the numbers may change by a slight amount from run to run, due to the starting points starting as a random number between 0 and 1.
