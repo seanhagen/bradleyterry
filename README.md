@@ -8,19 +8,6 @@ Model](https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model) is useful when
 comparing the results of a bunch of pairings to see what item is most relevant
 or best choice. 
 
-For example, given 3 players and four games like so:
+It's also used a bunch to determine the best team to bet on.
 
-* Document 2 was chosen over Document 1
-* Document 2 was chosen over Document 3
-* Document 3 was chosen over Document 2
-* Document 3 was chosen over Document 2
-
-The most relevance scores for each document are:
-
-* Document 1: **0**
-* Document 2: **0.38**
-* Document 3: **0.64**
-
-So the most relevant document is #3.
-
-
+I wrote this version because I need to compare the preferred pieces of equipment at a playground, and didn't want to have to call out to Python or R to get the correct answer.
