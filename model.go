@@ -18,17 +18,6 @@ const maxIter = 10e6
 // Model takes in a dataset of Pairs that describe the winner and loser of multiple match-ups.
 // The model will return a map[string]float64 that contains the preference/relevance of each
 // given element.
-//
-// For example, given the following dataset:
-//
-// var data = []Pair{
-//  {Winner: "Player 2", Loser: "Player 1"},
-//  {Winner: "Player 2", Loser: "Player 3"},
-//  {Winner: "Player 3", Loser: "Player 2"},
-//  {Winner: "Player 3", Loser: "Player 2"},
-// }
-//
-// The model will return:
 func Model(data []Pair) map[string]float64 {
 	elements := getElements(data)
 	out := map[string]float64{}
