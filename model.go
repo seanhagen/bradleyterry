@@ -25,8 +25,7 @@ func Model(data []Pair) map[string]float64 {
 	coeffVec := map[string]float64{}
 	interVec := map[string]float64{}
 	for _, x := range elements {
-		v := rand.Float64()
-		coeffVec[x] = v
+		coeffVec[x] = rand.Float64()
 		interVec[x] = 0
 	}
 
