@@ -12,8 +12,8 @@ type Pair struct {
 	Loser  string
 }
 
-const convergenceErr = 1e-05
-const maxIter = 10e6
+const convergenceErr = 1e-15
+const maxIter = 10e8
 
 // Model takes in a dataset of Pairs that describe the winner and loser of multiple match-ups.
 // The model will return a map[string]float64 that contains the preference/relevance of each
