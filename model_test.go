@@ -197,6 +197,6 @@ func ExampleModel() {
 
 	// Output:
 	// Player 1: 0.00
-	// Player 2: 0.36
-	// Player 3: 0.64
+	// Player 2: 0.33
+	// Player 3: 0.67
 }
