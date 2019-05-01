@@ -73,7 +73,9 @@ func Model(data []Pair) map[string]float64 {
 			errSum += math.Pow(v, 2)
 		}
 
-		coeffVec = interVec
+		for k, v := range interVec {
+			coeffVec[k] = v
+		}
 
 		if errSum < convergenceErr {
 			return coeffVec
