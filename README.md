@@ -1,6 +1,8 @@
 Bradley-Terry Model [![Build
 Status](https://www.travis-ci.org/seanhagen/bradleyterry.svg?branch=master)](https://www.travis-ci.org/seanhagen/bradleyterry) [![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/emersion/stability-badges#stable) [![Go Report
-Card](https://goreportcard.com/badge/github.com/seanhagen/bradleyterry)](https://goreportcard.com/report/github.com/seanhagen/bradleyterry) [![GoDoc](https://godoc.org/gonum.org/v1/gonum?status.svg)](https://godoc.org/github.com/seanhagen/bradleyterry) [![codecov.io](https://codecov.io/gh/seanhagen/bradleyterry/branch/master/graph/badge.svg)](https://codecov.io/gh/seanhagen/bradleyterry)
+Card](https://goreportcard.com/badge/github.com/seanhagen/bradleyterry)](https://goreportcard.com/report/github.com/seanhagen/bradleyterry)
+[![GoDoc](https://godoc.org/gonum.org/v1/gonum?status.svg)](https://godoc.org/github.com/seanhagen/bradleyterry)
+[![codecov.io](https://codecov.io/gh/seanhagen/bradleyterry/branch/master/graph/badge.svg)](https://codecov.io/gh/seanhagen/bradleyterry) [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go) 
 ===================
 
 The [Bradley-Terry
